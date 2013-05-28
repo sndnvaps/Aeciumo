@@ -1,0 +1,20 @@
+QToolButton
+{
+	border-image: url(:/img/btn_black_normal);
+	color: rgba(255, 255, 255, 255);
+	font: bold 12px "Ubuntu";
+	padding-top: -4px;
+	padding-left: -1px;
+}
+
+QToolButton:hover
+{
+	border-image: url(:/img/btn_black_hover);
+}
+
+QToolButton:pressed
+{
+	border-image: url(:/img/btn_black_press);
+	padding-top: -3px;
+	padding-left: 0px;
+}

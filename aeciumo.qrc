@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/img">
+        <file alias="butterfly">Resources/butterfly.png</file>
+        <file alias="logo">Resources/logo.png</file>
+        <file alias="background">Resources/background.png</file>
+        <file alias="combo_login">Resources/combo_login.png</file>
+        <file alias="down_Arrow_Off">Resources/down_Arrow_Off.png</file>
+        <file alias="down_Arrow_On">Resources/down_Arrow_On.png</file>
+        <file alias="btn_close_disable">Resources/btn_close_disable.png</file>
+        <file alias="btn_close_down">Resources/btn_close_down.png</file>
+        <file alias="btn_close_highlight">Resources/btn_close_highlight.png</file>
+        <file alias="btn_mini_down">Resources/btn_mini_down.png</file>
+        <file alias="btn_mini_highlight">Resources/btn_mini_highlight.png</file>
+        <file alias="btn_mini_normal">Resources/btn_mini_normal.png</file>
+        <file alias="btn_set_hover">Resources/btn_set_hover.png</file>
+        <file alias="btn_set_normal">Resources/btn_set_normal.png</file>
+        <file alias="btn_set_press">Resources/btn_set_press.png</file>
+        <file alias="checkbox_checked">Resources/checkbox_checked.png</file>
+        <file alias="checkbox_checked_hover">Resources/checkbox_checked_hover.png</file>
+        <file alias="checkbox_unchecked">Resources/checkbox_unchecked.png</file>
+        <file alias="checkbox_unchecked_hover">Resources/checkbox_unchecked_hover.png</file>
+        <file alias="btn_black_hover">Resources/btn_black_hover.png</file>
+        <file alias="btn_black_normal">Resources/btn_black_normal.png</file>
+        <file alias="btn_black_press">Resources/btn_black_press.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file alias="styleSheet_button_minimum">Qss/styleSheet_button_minimum.qss</file>
+        <file alias="styleSheet_button_close">Qss/styleSheet_button_close.qss</file>
+        <file alias="styleSheet_button_settings">Qss/styleSheet_button_settings.qss</file>
+        <file alias="styleSheet_label_title">Qss/styleSheet_label_title.qss</file>
+        <file alias="styleSheet_comboBox_id">Qss/styleSheet_comboBox_id.qss</file>
+        <file alias="styleSheet_lineEdit_password">Qss/styleSheet_lineEdit_password.qss</file>
+        <file alias="styleSheet_checkBox">Qss/styleSheet_checkBox.qss</file>
+        <file alias="styleSheet_black_button">Qss/styleSheet_black_button.qss</file>
+    </qresource>
+    <qresource prefix="/lib">
+        <file alias="baslib">Lib/baslib</file>
+        <file alias=".baslib">Lib/.baslib</file>
+    </qresource>
+</RCC>

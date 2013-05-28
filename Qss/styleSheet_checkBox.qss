@@ -1,0 +1,33 @@
+QCheckBox
+{
+	spacing: 4px;
+	color: #FFFFFF;
+	font: normal 11px "Ubuntu";
+}
+
+QCheckBox::indicator
+{
+	/*top: 1px;*/
+	width: 31px;
+	height: 22px;
+}
+
+QCheckBox::indicator:unchecked
+{
+	border-image: url(:/img/checkbox_unchecked);
+}
+
+QCheckBox::indicator:unchecked:hover
+{
+	border-image: url(:/img/checkbox_unchecked_hover);
+}
+
+QCheckBox::indicator:checked
+{
+	border-image: url(:/img/checkbox_checked);
+}
+
+QCheckBox::indicator:checked:hover
+{
+	border-image: url(:/img/checkbox_checked_hover);
+}

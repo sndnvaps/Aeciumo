@@ -1,0 +1,5 @@
+host=172.16.1.180
+service=%s
+interface=wlan0
+randnum=6065226431176681
+time=0

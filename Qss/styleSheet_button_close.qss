@@ -1,0 +1,14 @@
+QToolButton
+{
+	border-image: url(:/img/btn_close_disable);
+}
+
+QToolButton:hover
+{
+	border-image: url(:/img/btn_close_highlight);
+}
+
+QToolButton:pressed
+{
+	border-image: url(:/img/btn_close_down);
+}

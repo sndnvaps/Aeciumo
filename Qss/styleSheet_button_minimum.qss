@@ -1,0 +1,14 @@
+QToolButton
+{
+	border-image: url(:/img/btn_mini_normal);
+}
+
+QToolButton:hover
+{
+	border-image: url(:/img/btn_mini_highlight);
+}
+
+QToolButton:pressed
+{
+	border-image: url(:/img/btn_mini_down);
+}

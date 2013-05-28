@@ -1,0 +1,37 @@
+QComboBox
+{
+	 border: 0px;
+         color: rgba(200, 200, 200, 255);
+	 padding: 5px;
+         background-color: rgba(0,0,0,0);
+         background-image: url(:/img/combo_login);
+         font: bold 14px "Ubuntu";
+}
+
+QComboBox::down-arrow
+{
+         background-color: rgba(0,0,0,0);
+	 image: url(:/img/down_Arrow_Off);
+}
+
+QComboBox::down-arrow:hover
+{
+	 image: url(:/img/down_Arrow_On);
+}
+
+QComboBox::down-arrow:on
+{
+	 image: url(:/img/down_Arrow_On);
+	 top: 1px;
+}
+
+QComboBox::drop-down
+{
+	 width: 32px;
+	 border-style: none;
+}
+
+QComboBox:on
+{
+	  padding-left: 5px;
+}

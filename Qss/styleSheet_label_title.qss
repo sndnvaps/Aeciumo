@@ -1,0 +1,5 @@
+QLabel
+{
+	color: rgba(255, 255, 255, 230);
+        font: bold 13px "Ubuntu";
+}
