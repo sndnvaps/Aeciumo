@@ -3,6 +3,18 @@
 
 #include "qssReader.h"
 #include "connectInternet.h"
+#include <QLine>
+#include <QCheckBox>
+#include <QToolBox>
+#include <QLineEdit>
+#include <QComboBox>
+#include <QToolButton>
+#include <QLabel>
+#include <QBitmap>
+#include <QPainter>
+#include <QDesktopWidget>
+#include <QGraphicsDropShadowEffect>
+#include <QMouseEvent>
 
 class Aeciumo : public QWidget
 {

@@ -1,4 +1,5 @@
 #include "connectInternet.h"
+#include <QApplication>
 
 ConnectInternet::ConnectInternet(QString id, QString password, QString hostIP, QString nci)
 {

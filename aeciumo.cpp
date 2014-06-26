@@ -1,4 +1,5 @@
 #include "aeciumo.h"
+#include <QApplication>
 
 Aeciumo::Aeciumo(QWidget *parent) : QWidget(parent)
 {
@@ -113,6 +114,7 @@ void Aeciumo::initUi()
     QStringList list_savedId;
     list_savedId.append("1040112115");
     list_savedId.append("1030804135");
+    list_savedId.append("126021100363");
     comboBox_id->addItems(list_savedId);
     for(int i = 0; i < comboBox_id->count(); i++)
         comboBox_id->setItemData(i, QSize(10, 25), Qt::SizeHintRole);
@@ -307,7 +309,8 @@ void Aeciumo::checkState()
 void Aeciumo::login()
 {
     // qDebug() << "LOGIN";
-    connectInternet = new ConnectInternet(comboBox_id->currentText(), lineEdit_password->text(), "172.16.1.180", "wlan0");
+    //connectInternet = new ConnectInternet(comboBox_id->currentText(), lineEdit_password->text(), "172.16.1.180", "wlan0");
+    connectInternet = new ConnectInternet(comboBox_id->currentText(), lineEdit_password->text(), "219.136.125.139", "eth0");
     connectInternet->start();
     button_login->setText("Logout");
     state_login = !state_login;

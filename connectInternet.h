@@ -3,7 +3,8 @@
 
 #include "networkState.h"
 #include <QtCore>
-#include <QtWidgets>
+//#include <QtWidgets>
+#include <QWidget>
 
 class ConnectInternet : public QThread
 {
